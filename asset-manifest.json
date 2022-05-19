@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/newweb/static/css/main.2236505e.css",
+    "main.css": "/newweb/static/css/main.a75edb62.css",
     "main.js": "/newweb/static/js/main.73a451e5.js",
     "static/media/slider-two.jpg": "/newweb/static/media/slider-two.fad7c8c6cb2b4d38422d.jpg",
     "static/media/service1.jpg": "/newweb/static/media/service1.09bf471a60f728d7297d.jpg",
     "static/media/slider-one.jpg": "/newweb/static/media/slider-one.75d006303dbf0bb3a792.jpg",
     "static/media/logo.png": "/newweb/static/media/logo.b425ecb2621be187efba.png",
     "index.html": "/newweb/index.html",
-    "main.2236505e.css.map": "/newweb/static/css/main.2236505e.css.map",
+    "main.a75edb62.css.map": "/newweb/static/css/main.a75edb62.css.map",
     "main.73a451e5.js.map": "/newweb/static/js/main.73a451e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2236505e.css",
+    "static/css/main.a75edb62.css",
     "static/js/main.73a451e5.js"
   ]
 }
