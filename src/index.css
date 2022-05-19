@@ -1,0 +1,317 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Navbar{
+  background-color:#fff;
+  color: black;
+}
+.Navbar ul a {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.icon{
+  color: black;
+}
+.dropdown button{
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: red;
+}
+.anchor:hover{
+  color: #00d0ec;
+}
+.bgimg1{
+  background:url("./Fresher/images/slider-one.jpg") ;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height:75vh;
+}
+.bgimg2{
+  background:url("./Fresher/images/slider-two.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  height:75vh;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+  padding-top: 8%;
+  font-size: 28px;
+
+}
+.para1{
+  font-size:48px;
+  font-weight: 600;
+  letter-spacing:0.4rem;
+  margin: 0%;
+}
+.para2{
+  font-size: 20px;
+}
+.bLeader{
+  padding:3% 8%;
+  background-color:#00d0ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bLeader1{
+  width: 70%;
+}
+.dropdown button{
+  background-color: transparent;
+  padding: 5px 8px;
+  border: none;
+  margin-top:3px;
+}
+.bLeader2 button{
+  background-color: transparent;
+  padding: 5px 8px;
+  border: 1px solid rgb(25, 23, 23);
+
+}
+#p1{
+  font-size: 24px;
+  margin-bottom:10px;
+  font-weight: 500;
+}
+#p2{
+  font-size: 14px;
+}
+.services{
+  text-align: center;
+
+  margin: 3% 16%;
+  
+}
+.card_div{
+  display: flex;
+  gap: 50px;
+  grid-template-columns: auto auto auto;
+  margin-top:2%;
+}
+.div_icon{
+  color: #00d0ec;
+  font-size:30px;
+  padding:5% 0%;
+}
+.card1{
+  background-color: rgb(235, 231, 231);
+  margin-top: 3%;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+}
+.Our_div{
+  display: flex;
+}
+.Our_div1{
+  width: 47%;
+  background: url("./Fresher/images/service1.jpg");
+  background-size: cover;
+}
+.Our_div2{
+  width: 53%;
+  background-color: rgb(235, 231, 231); 
+  padding: 3% 4%;
+}
+.Our_div2 button{
+  color: #fff;
+  background-color: #00d0ec;
+  border: none;
+  padding: 8px 12px;
+}
+.footer{
+  margin-top:1px;
+  color: #fff;
+  display: flex;
+  flex-direction:row;
+  background-color: #4a4b4d;
+}
+.footer1{
+  padding: 3% 0%;
+  display: flex;
+  flex-direction:row;
+  gap: 5%;
+}
+.footer1 p{
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.footer1 h5{
+  color: #00d0ec;
+}
+.footer_second{
+  height: 10vh;
+  color: #fff;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction:row;
+  background-color: #3a3b3b;
+  gap: 20px;
+}
+.footer_second1{
+  width: 40%;
+   height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_second1 p{
+  margin: 0%;
+}
+.footer_second2{
+  display: flex;
+  width: 40%;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.footer_second2 div{
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  padding:5px 8px
+}
+@media (max-width:1050px){
+  .card_div{
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+    margin-top:2%;
+    grid-row-gap: 50px;
+  }
+
+}
+@media (max-width:700px){
+  .card_div{
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto;
+    margin-top:2%;
+    grid-row-gap: 50px;
+  }
+  .Our_div{
+    margin-top: 50px;
+  }
+
+}
+@media (max-width:950px) {
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    width:100%;
+  }
+  .bLeader{
+    padding:3% 8%;
+    background-color:#00d0ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .Our_div{
+    display: flex;
+    flex-direction: column;
+  }
+  .Our_div1{
+    width:100%;
+    height: 70vh;
+    background: url("./Fresher/images/service1.jpg");
+    background-size: cover;
+  }
+  .Our_div2{
+    width:100%;
+    background-color: rgb(235, 231, 231); 
+    padding: 5% 6%;
+  }
+  .footer1{
+    margin-top:1px;
+    color: #fff;
+    display: flex;
+    flex-direction:column;
+    background-color: #4a4b4d;
+    text-align:left;
+  }
+  .footer1 p{
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .footer1 h5{
+    padding: 10px 0px;
+  }
+  .footer_second{ 
+    text-align: center;
+    height: 20vh;
+    color: #fff;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    flex-direction:column;
+    background-color: #3a3b3b;
+
+  }
+  .footer_second1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_second p{
+    font-size: 14px;
+  }
+  
+  
+}
+@media (max-width:450px){
+  .para1{
+    font-size:35px;
+    font-weight: 600;
+    letter-spacing:0.4rem;
+    margin: 0%;
+  }
+  .para2{
+    font-size:18px;
+  }
+  .footer_second1{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_second p{
+    font-size: 14px;
+
+  }
+
+}
+
+
+
